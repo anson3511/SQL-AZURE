@@ -11,5 +11,5 @@ variable "sql_admin_username" {
 }
 
 variable "sql_admin_password" {
-  default = "Cloud3511!Pass"
+  sensitive = true
 }
